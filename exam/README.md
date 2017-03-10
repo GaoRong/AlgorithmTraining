@@ -17,4 +17,11 @@ description：
 >输入描述:输入一个正整数n(2 ≤ n ≤ 10^18)    
 >输出描述:如果n是一个超级素数幂则输出p,q,以空格分隔,行末无空格。如果n不是超级素数幂，则输出No    
 >输入例子:27    
->输出例子:3 3   
+>输出例子:3 3    
+
+##[连续整数](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SeriesNumber.cpp)	
+tag : 按位异或	
+address: https://www.nowcoder.com/questionTerminal/c3083cd30d5043e1b95000f139b5b2c9	
+
+
+
