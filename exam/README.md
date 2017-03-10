@@ -9,9 +9,9 @@ description：
 >3 + 4 + 5 + 6 = 18;   
 >都是满足要求的，但是我们输出更短的 5 6 7      
 
-##[超级素数幂](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/PrimePow.cpp)   
-tag : 数学逻辑,精度 
-address: https://www.nowcoder.com/questionTerminal/fb511c3f1ac447309368d7e5432c6c79    
+##[超级素数幂](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/PrimePow.cpp)      
+tag : 数学逻辑,精度		     
+address: https://www.nowcoder.com/questionTerminal/fb511c3f1ac447309368d7e5432c6c79		
 description：   
 >如果一个数字能表示为p^q(^表示幂运算)且p为一个素数,q为大于1的正整数就称这个数叫做超级素数幂。现在给出一个正整数n,如果n是一个超级素数幂需要找出对应的p,q。    
 >输入描述:输入一个正整数n(2 ≤ n ≤ 10^18)    
