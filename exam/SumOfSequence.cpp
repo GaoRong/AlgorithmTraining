@@ -16,7 +16,9 @@ bool test(int n,int l){
         cout << "No" << endl;
         return true;
     }
-    int sum = 0;			//求序列和
+
+	//求序列和
+    int sum = 0;			
     for(int i = 0;i<l;i++){
     	sum += begin;
         begin++;
