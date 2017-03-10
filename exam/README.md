@@ -1,5 +1,5 @@
 #牛客网校招模拟题1
-##[序列和](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SumOfSequence.cpp)
+####[序列和](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SumOfSequence.cpp)
 tag : 数学逻辑    
 address: https://www.nowcoder.com/questionTerminal/46eb436eb6564a62b9f972160e1699c9   
 description：   
@@ -9,7 +9,7 @@ description：
 >3 + 4 + 5 + 6 = 18;   
 >都是满足要求的，但是我们输出更短的 5 6 7      
 
-##[超级素数幂](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/PrimePow.cpp)      
+####[超级素数幂](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/PrimePow.cpp)      
 tag : 数学逻辑,精度		     
 address: https://www.nowcoder.com/questionTerminal/fb511c3f1ac447309368d7e5432c6c79		
 description：   
@@ -19,9 +19,13 @@ description：
 >输入例子:27    
 >输出例子:3 3    
 
-##[连续整数](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SeriesNumber.cpp)	
+####[连续整数](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SeriesNumber.cpp)	
 tag : 按位异或	
 address: https://www.nowcoder.com/questionTerminal/c3083cd30d5043e1b95000f139b5b2c9	
+
+####[循环单词](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/CircleWord.cpp)	
+tag : 字符串	
+address: https://www.nowcoder.com/questionTerminal/9d5fbe7750a34d0b91c73943f93b2d7d  
 
 
 
