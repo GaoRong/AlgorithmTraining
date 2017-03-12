@@ -71,7 +71,20 @@ address: https://www.nowcoder.com/questionTerminal/c471efdbd33a4a979539a91170c9f
 
 >请设计一个算法，给一个字符串进行二进制编码，使得编码后字符串的长度最短。    
 
-tips: 因为只需要求字符串的长度，所以无需构建一个哈夫曼树，只需要将长度求出来即可，利用优先级队列！
+tips: 因为只需要求字符串的长度，所以无需构建一个哈夫曼树，只需要将长度求出来即可，利用优先级队列！    
+####[奇数位丢弃](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/DiscardOddNumberBits.cpp)    
+tag: 智力题, 位运算    
+address: https://www.nowcoder.com/test/question/done?tid=6969495&qid=26166#summary     
+
+>对于一个由0..n的所有数按升序组成的序列，我们要进行一些筛选，每次我们取当前所有数字中从小到大的第奇数位个的数，并将其丢弃。重复这一过程直到最后剩下一个数。请求出最后剩下的数字。
+
+####[二维数组打印](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/Print2dArray.cpp)    
+tag: 二维数组    
+address: https://www.nowcoder.com/test/question/done?tid=6969495&qid=26167#summary    
+
+>有一个二维数组(n*n),写程序实现从右上角到左下角沿主对角线方向打印。给定一个二位数组arr及题目中的参数n，请返回结果数组。
+
+
 
 
 
