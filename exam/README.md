@@ -1,4 +1,4 @@
-#牛客网校招模拟题1
+##牛客网校招模拟题1
 ####[序列和](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SumOfSequence.cpp)
 tag : 数学逻辑    
 address: https://www.nowcoder.com/questionTerminal/46eb436eb6564a62b9f972160e1699c9   
@@ -27,8 +27,7 @@ address: https://www.nowcoder.com/questionTerminal/9d5fbe7750a34d0b91c73943f93b2
 >如果一个单词通过循环右移获得的单词，我们称这些单词都为一种循环单词。 例如：picture 和 turepic 就是属于同一种循环单词。 现在给出n个单词，需要统计这个n个单词中有多少种循环单词。 
 
 
-
-#网易2016实习研发工程师   
+##网易2016实习研发工程师   
 ####[二叉树](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/BTleafNodeDistance.cpp)
 tag: 二叉树   
 address: https://www.nowcoder.com/questionTerminal/d567727f21a247f7b64ba32431cb9a19   
@@ -45,7 +44,8 @@ address: https://www.nowcoder.com/questionTerminal/ac27e60e63b549d6a9b59f815d9bc
 
 tips:  对于判断相互关系的题型都可以这样构造一个有向图或多叉树      
 
-#搜狐2016研发工程师编程题
+
+##搜狐2016研发工程师编程题
  
 ####[马戏团](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/Circus.cpp)    
 tag: 最长递增子序列     
@@ -62,7 +62,16 @@ address: https://www.nowcoder.com/questionTerminal/acb888f7ccee4fc0aab208393d41a
 
 >搜狐进行了一次黑客马拉松大赛，全公司一共分为了N个组，每组一个房间排成一排开始比赛，比赛结束后没有公布成绩，但是每个组能够看到自己相邻的两个组里比自己成绩低的组的成绩，比赛结束之后要发奖金，以1w为单位，每个组都至少会发1w的奖金，另外，如果一个组发现自己的奖金没有高于比自己成绩低的组发的奖金，就会不满意，作为比赛的组织方，根据成绩计算出至少需要发多少奖金才能让所有的组满意。 
 
+tips: 正向遍历找出其中递增的序列奖金也递增，反向遍历，同理找出其中递增的，取奖金中较大值最为最终奖金    
 
+##美团点评2016研发工程师编程题(二)
+####[字符编码](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/CharacterCoding.cpp)    
+tag: 哈夫曼树    
+address: https://www.nowcoder.com/questionTerminal/c471efdbd33a4a979539a91170c9f1cb 
+
+>请设计一个算法，给一个字符串进行二进制编码，使得编码后字符串的长度最短。    
+
+tips: 因为只需要求字符串的长度，所以无需构建一个哈夫曼树，只需要将长度求出来即可，利用优先级队列！
 
 
 
