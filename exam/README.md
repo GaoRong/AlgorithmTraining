@@ -29,19 +29,35 @@ address: https://www.nowcoder.com/questionTerminal/9d5fbe7750a34d0b91c73943f93b2
 
 
 #网易2016实习研发工程师   
-###[二叉树](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/BTleafNodeDistance.cpp)
+####[二叉树](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/BTleafNodeDistance.cpp)
 tag: 二叉树   
 address: https://www.nowcoder.com/questionTerminal/d567727f21a247f7b64ba32431cb9a19   
+
 >有一棵二叉树，树上每个点标有权值，权值各不相同，请设计一个算法算出权值最大的叶节点到权值最小的叶节点的距离。二叉树每条边的距离为1，一个节点经过多少条边到达另一个节点为这两个节点之间的距离。 给定二叉树的根节点root，请返回所求距离。    
+
 tips: 典型的二叉树递归也可解，但将二叉树叶子结点进行01编码是妙解     
 
-###[比较重量](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/WeightCompare.cpp)
+####[比较重量](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/WeightCompare.cpp)
 tag: 有向图，多叉树，bfs，floyd算法  
 address: https://www.nowcoder.com/questionTerminal/ac27e60e63b549d6a9b59f815d9bc6e2       
+
 >给定两颗钻石的编号g1,g2，编号从1开始，同时给定关系数组vector,其中元素为一些二元组，第一个元素为一次比较中较重的钻石的编号，第二个元素为较轻的钻石的编号。最后给定之前的比较次数n。请返回这两颗钻石的关系，若g1更重返回1，g2更重返回-1，无法判断返回0。输入数据保证合法，不会有矛盾情况出现。    
-tips:  对于判断相互关系的题型都可以这样将一个构造一个有向图或多叉树      
 
+tips:  对于判断相互关系的题型都可以这样构造一个有向图或多叉树      
 
+#搜狐2016研发工程师编程题
  
+####[马戏团](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/Circus.cpp)    
+tag: 最长递增子序列     
+address: https://www.nowcoder.com/questionTerminal/c2afcd7353f84690bb73aa6123548770     
+
+>搜狐员工小王最近利用假期在外地旅游，在某个小镇碰到一个马戏团表演，精彩的表演结束后发现团长正和大伙在帐篷前激烈讨论，小王打听了下了解到，
+马戏团正打算出一个新节目“最高罗汉塔”，即马戏团员叠罗汉表演。考虑到安全因素，要求叠罗汉过程中，站在某个人肩上的人应该既比自己矮又比自己瘦，或相等。
+团长想要本次节目中的罗汉塔叠的最高，由于人数众多，正在头疼如何安排人员的问题。小王觉得这个问题很简单，于是统计了参与最高罗汉塔表演的所有团员的身高体重，并且很快找到叠最高罗汉塔的人员序列。  现在你手上也拿到了这样一份身高体重表，请找出可以叠出的最高罗汉塔的高度，这份表中马戏团员依次编号为1到N。
+
+tips: 先按照体重排序，然后对身高求最长递增序列    
+
+
+
 
 

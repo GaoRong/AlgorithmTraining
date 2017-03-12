@@ -58,6 +58,7 @@ class Cmp2 {
 public:
     bool check(unordered_map<int,vector<int>>& m, int g1, int g2 ){
     	
+		//进行BFS
         unordered_map<int,bool> mark;
         queue<int> q;
         q.push( g1 );
