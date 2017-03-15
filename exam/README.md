@@ -1,4 +1,4 @@
-##牛客网校招模拟题1
+##牛客网校招模拟题1    
 ####[序列和](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/SumOfSequence.cpp)
 tag : 数学逻辑    
 address: https://www.nowcoder.com/questionTerminal/46eb436eb6564a62b9f972160e1699c9   
@@ -83,6 +83,51 @@ tag: 二维数组
 address: https://www.nowcoder.com/test/question/done?tid=6969495&qid=26167#summary    
 
 >有一个二维数组(n*n),写程序实现从右上角到左下角沿主对角线方向打印。给定一个二位数组arr及题目中的参数n，请返回结果数组。
+
+
+##滴滴出行2017秋招笔试真题-编程题汇总
+####[进制转换](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/NDecimalTransfer.cpp)    
+tag: 数学逻辑    
+address: https://www.nowcoder.com/questionTerminal/ac61207721a34b74b06597fe6eb67c52    
+
+>给定一个十进制数M，以及需要转换的进制数N。将十进制数M转化为N进制数     
+
+tips: 对于一些常用字符可以准备一个数组存储起来   
+####[连续子数组最大和](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/MaxSequence.cpp)    
+tag: 数组    
+address: https://www.nowcoder.com/questionTerminal/5a304c109a544aef9b583dce23f5f5db    
+
+>一个数组有 N 个元素，求连续子数组的最大和。 例如：[-1,2,1]，和最大的连续子数组为[2,1]，其和为 3     
+
+###[餐馆](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/Restaurant.cpp)    
+tag: 贪心算法   
+address: https://www.nowcoder.com/questionTerminal/d2cced737eb54a3aa550f53bb3cc19d0     
+
+>某餐馆有n张桌子，每张桌子有一个参数：a 可容纳的最大人数； 有m批客人，每批客人有两个参数:b人数，
+c预计消费金额。 在不允许拼桌的情况下，请实现一个算法选择其中一部分客人，使得总预计消费金额最大
+
+tips: 很多贪心算法的题目都需要用到优先级队列或者是排序后的数组，此时可以用multiset来代替，
+因为其既可以实现排序，又可以利用lower_bound实现二分查找！
+####[地下迷宫](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/UndergroundMaze.cpp)    
+tags: BFS    
+address: https://www.nowcoder.com/test/question/done?tid=7102967&qid=58539#summary    
+
+>小青蛙有一天不小心落入了一个地下迷宫,小青蛙希望用自己仅剩的体力值P跳出这个地下迷宫。为了让问题简单,假设这是一个n*m的格子迷宫,迷宫每个位置为0或者1,0代表这个位置有障碍物,小青蛙达到不了这个位置;1代表小青蛙可以达到的位置。小青蛙初始在(0,0)位置,地下迷宫的出口在(0,m-1)(保证这两个位置都是1,并且保证一定有起点到终点可达的路径),小青蛙在迷宫中水平移动一个单位距离需要消耗1点体力值,向上爬一个单位距离需要消耗3个单位的体力值,向下移动不消耗体力值,当小青蛙的体力值等于0的时候还没有到达出口,小青蛙将无法逃离迷宫。现在需要你帮助小青蛙计算出能否用仅剩的体力值跳出迷宫(即达到(0,m-1)位置)。
+
+
+tips: 需要熟练使用bfs的各种变形    
+####[末尾0的个数](https://github.com/GaoRong/AlgorithmTraining/blob/master/exam/UndergroundMaze.cpp)
+tag: 数学逻辑     
+address: https://www.nowcoder.com/questionTerminal/6ffdd7e4197c403e88c6a8aa3e7a332a     
+
+>输入一个正整数n,求n!(即阶乘)末尾有多少个0？ 比如: n = 10; n! = 3628800,所以答案为2     
+
+tip: 注意边界条件的考虑
+
+
+
+
+
 
 
 
