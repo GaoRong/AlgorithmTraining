@@ -14,6 +14,9 @@ us achieve the goal of agile software development.
 > reverseList 反转链表     
 > array2List  数组转换链表    
 
+#### 查找和排序 sortAndSearch    
+> rotateArray  旋转数组找最小值，见剑指offer
+
 
 
 
